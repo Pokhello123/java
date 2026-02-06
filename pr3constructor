@@ -1,0 +1,21 @@
+public class constructoremp
+{
+int eid;
+String ename;
+
+constructoremp()
+{
+eid=111;
+ename="ADITYA";
+}
+void disp()
+{
+System.out.println("emp id=" +eid);
+System.out.println("emp name=" +ename);
+}
+public static void main(String[] args)
+{
+constructoremp e=new constructoremp();
+e.disp();
+}
+}
