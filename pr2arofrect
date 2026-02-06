@@ -1,0 +1,18 @@
+class Rectangle {
+    double length;
+    double breadth;
+}
+
+public class RectangleDemo {
+    public static void main(String[] args) {
+        Rectangle myrect = new Rectangle();
+        double area;
+
+        myrect.length = 10;
+        myrect.breadth = 20;
+
+        area = myrect.length * myrect.breadth;
+
+        System.out.println("Area is " + area);
+    }
+}
